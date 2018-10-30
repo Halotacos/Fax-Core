@@ -27,14 +27,13 @@
 -- Vehicles that are restricted for all except admins
 vehModelsAdmin = 
 {
-	"ADMIN",
-	"ADMIN2",
+	"SFBC3",
 }
 
 -- Vehicles that are restricted for people below Owner (Snr Admin, Admin, M3, M2, M1, Guest)
 restrictedVehsGen = 
 {
-	"APC",
+--[[	"APC",
 	"BALLER5",
 	"BALLER6",
 	"BLIMP",
@@ -118,34 +117,30 @@ restrictedVehsGen =
 	"DELUXO",
 	"SEABREEZE",
 	"CARACARA",
+	]]--
 }
 
 -- Vehicles that are restricted for people below Owner (Admin, M3, M2, M1, Guest)
 restrictedVehsSnrAdmin = 
 {	
-	"CAR1",
-	"CAR2",
+
 }
 
 -- Vehicles that are restricted for people below Owner (M3, M2, M1, Guest)
 restrictedVehsAdmin = 
 {
-	"CAR3",
-	"CAR4",
 }
 
 -- Vehicles that are restricted for people below Owner (M2, M1, Guest)
 restrictedVehsM3 = 
 {
-	"CAR5",
-	"CAR6",
+	"SFBC3",
 }
 
 -- Vehicles that are restricted for people below Owner (M1, Guest)
 restrictedVehsM2 = 
 {
-	"CAR7",
-	"CAR8",
+	"SFBC3",
 }
 --[[
 	WEAPON SECTION
@@ -157,6 +152,7 @@ restrictedVehsM2 =
 -- Weapons that are restricted for people below owner (Snr Admin, Admin, M3, M2, M1, Guest)
 restrictedWeapsGen = 
 {
+	--[[
 	"WEAPON_AIRSTRIKE_ROCKET",
 	"WEAPON_ASSAULTSHOTGUN",
 	"WEAPON_COMBATMG",
@@ -181,24 +177,29 @@ restrictedWeapsGen =
 	"WEAPON_HEAVYSNIPER_MK2",
 	"WEAPON_COMBATMG_MK2",
 	"WEAPON_PISTOL_MK2",
+	]]--
 }
 
 -- Weapons that are restricted for people below M3 (M2, M1, Guest)
 restrictedWeapsM3 = 
 {
+	--[[
 	"WEAPON_HEAVYSNIPER",
 	"WEAPON_RIFLE_HEAVY",
 	"WEAPON_SNIPERRIFLE",
 	"WEAPON_SNOWBALL",
 	"WEAPON_FLAREGUN",
+	]]--
 }
 
 -- Weapons that are restricted for people below M1 (Guest)
 restrictedWeapsM1 =
 {
+	--[[
 	"WEAPON_MARKSMANPISTOL",
 	"WEAPON_MARKSMANRIFLE",
 	"WEAPON_SPECIALCARBINE",
+	]]--
 }
 
 --[[
@@ -210,8 +211,7 @@ newdmodel = GetHashKey("a_m_y_hipster_01")
 -- Set staff / admin peds. These are blacklisted. Use /oda to go on duty as an admin.
 restrictedPedsStaff =
 {
-	"s_m_y_seb_01",
-	"s_m_y_seb_02",
+	"s_m_m_armoured_01",
 }
 
 -- Peds that are restricted for people below owner (Snr Admin, Admin, M3, M2, M1, Guest)
@@ -241,13 +241,6 @@ restrictedPedsM3 =
 	"a_c_rhesus",
 	"a_c_mtlion",
 	"ap_sp_dick",
-	"ap_fra_ped",
-	"S_M_M_MovAlien_01",
-	"S_M_M_MovSpace_01",
-	"U_M_Y_RSRanger_01",
-	"U_M_Y_Zombie_01",
-	"a_m_m_og_boss_01",
-	"a_m_m_soucent_04",
 }
 
 -- Peds that are restricted for people below M2 (M1, Guests)
@@ -262,13 +255,7 @@ restrictedPedsM2 =
 	"a_c_rhesus",
 	"a_c_mtlion",
 	"ap_sp_dick",
-	"ap_fra_ped",
-	"S_M_M_MovAlien_01",
-	"S_M_M_MovSpace_01",
-	"U_M_Y_RSRanger_01",
-	"U_M_Y_Zombie_01",
-	"a_m_m_og_boss_01",
-	"a_m_m_soucent_04",
+
 }
 
 -- Peds that are restricted for people below M1 (Guest)
